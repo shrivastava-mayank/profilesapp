@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import linkedinLogo from '/LinkedIn_logo_initials.png'
+import facebookLogo from '/facebook-logo.png'
 import './App.css'
 
 function App() {
@@ -9,25 +10,30 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
+       <span>
+        <a href="http://www.linkedin.com/in/shri-mayank" target="_blank">
+          <img src={linkedinLogo} className="logo" alt="Mayank Shrivastava" />
         </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+        </span>
+        <span>
+        <a href="http://www.facebook.com/mayank.shrivastava.7" target="_blank">
+          <img src={facebookLogo} className="logo" alt="Mayank Shrivastava" />
         </a>
+        </span>
+       
       </div>
-      <h1>Vite + React</h1>
+      <h1>Mayank Shrivastava</h1>
       <div className="card">
+      
         <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+          Click me to increase count
         </button>
+
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+            Curent count is: {count}
         </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      
     </>
   )
 }
