@@ -16,7 +16,7 @@ function App() {
         </a>
         </span>
         <span>
-        <a href="http://www.facebook.com/mayank.shrivastava.7" target="_blank">
+        <a href="https://www.facebook.com/mayank.shrivastava.060983" target="_blank">
           <img src={facebookLogo} className="logo" alt="Mayank Shrivastava" />
         </a>
         </span>
